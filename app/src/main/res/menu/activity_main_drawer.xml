@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bibliotecas"
+            android:icon="@mipmap/ic_bibliotecas"
+            android:title="Bibliotecas Publicas dpts." />
+        <item
+            android:id="@+id/nav_wifi"
+            android:icon="@mipmap/ic_wifi"
+            android:title="Puntos Wifi" />
+        <item
+            android:id="@+id/nav_tenistas"
+            android:icon="@mipmap/ic_tenistas"
+            android:title="Tenistas" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="Acerca de" />
+
+    </group>
+
+</menu>
